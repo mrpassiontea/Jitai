@@ -44,19 +44,6 @@
         "Hiragino-Kaku-Gothic-Pro" : {full_font_name: "Hiragino Kaku Gothic Pro, ヒラギノ角ゴ Pro W3", display_name: "Hiragino Kaku Gothic Pro", url: 'local', download: '', recommended: false, bugged: false},
         "Hiragino-Maru-Gothic-Pro" : {full_font_name: "Hiragino Maru Gothic Pro, ヒラギノ丸ゴ Pro W3", display_name: "Hiragino Maru Gothic Pro", url: 'local', download: '', recommended: false, bugged: false},
         "Hiragino-Mincho-Pro" :      {full_font_name: "Hiragino Mincho Pro, ヒラギノ明朝 Pro W3", display_name: "Hiragino Mincho Pro", url: 'local', download: '', recommended: false, bugged: false},
-        // Default Windows fonts
-        "BIZ-UDGothic" :      {full_font_name: "BIZ UDGothic, BIZ UDゴシック", display_name: "BIZ UDGothic", url: 'local', download: '', recommended: false, bugged: false},
-        "BIZ-UDMincho" :      {full_font_name: "BIZ UDMincho, BIZ UD明朝", display_name: "BIZ UDMincho", url: 'local', download: '', recommended: false, bugged: false},
-        "BIZ-UDPGothic" :     {full_font_name: "BIZ UDPGothic, BIZ UDPゴシック", display_name: "BIZ UDPGothic", url: 'local', download: '', recommended: false, bugged: false},
-        "BIZ-UDPMincho" :     {full_font_name: "BIZ UDPMincho, BIZ UDP明朝", display_name: "BIZ UDPMincho", url: 'local', download: '', recommended: false, bugged: false},
-        "UDDigiKyokashoN-R" : {full_font_name: "UD Digi Kyokasho N-R, UD デジタル 教科書体 N-R", display_name: "UD Digi Kyokasho", url: 'local', download: '', recommended: false, bugged: false},
-        "Meiryo" :            {full_font_name: "Meiryo, メイリオ", display_name: "Meiryo", url: 'local', download: '', recommended: false, bugged: false},
-        "MS-Gothic" :         {full_font_name: "MS Gothic, ＭＳ ゴック", display_name: "MS Gothic", url: 'local', download: '', recommended: false, bugged: false},
-        "MS-Mincho" :         {full_font_name: "MS Mincho, ＭＳ 明朝", display_name: "MS Mincho", url: 'local', download: '', recommended: false, bugged: false},
-        "MS-PGothic" :        {full_font_name: "MS PGothic, ＭＳ Ｐゴシック", display_name: "MS PGothic", url: 'local', download: '', recommended: false, bugged: false},
-        "MS-PMincho" :        {full_font_name: "MS PMincho, ＭＳ Ｐ明朝", display_name: "MS PMincho", url: 'local', download: '', recommended: false, bugged: false},
-        "Yu-Gothic" :         {full_font_name: "Yu Gothic, 游ゴシック", display_name: "Yu Gothic", url: 'local', download: '', recommended: false, bugged: false},
-        "Yu-Mincho" :         {full_font_name: "Yu Mincho, 游明朝", display_name: "Yu Mincho", url: 'local', download: '', recommended: false, bugged: false},
         // GoogleFonts
         "Dela-Gothic-One" : {full_font_name: "Dela Gothic One", display_name: "Dela Gothic One", url: 'https://fonts.googleapis.com/css?family=Dela+Gothic+One&subset=japanese', download: 'https://fonts.google.com/specimen/Dela+Gothic+One', recommended: true, bugged: false},
         "DotGothic16" :     {full_font_name: "DotGothic16", display_name: "DotGothic16", url: 'https://fonts.googleapis.com/css?family=DotGothic16&subset=japanese', download: 'https://fonts.google.com/specimen/DotGothic16', recommended: true, bugged: false},
@@ -699,22 +686,6 @@ p.font_legend {
         if (elem)
         {
             document.querySelector('#additional-content ul').style.textAlign = 'center';
-            // async function get_controller(name) {
-            //     return await Stimulus.getControllerForElementAndIdentifier(document.querySelector(`[data-controller~="${name}"]`),name);
-            // }
-            // let additional_content = get_controller('additional-content');
-            // document.querySelector('#additional-content ul').insertAdjacentHTML('beforeend',
-            //     `<li id="option-reroll-font" class="additional-content__menu-item additional-content__menu-item--5">
-            //         <a title="Re-roll Font" class="additional-content__item ${additional_content.toggleDisabledClass}">
-            //             <div class="additional-content__item-text">Re-roll Font</div>
-            //             <div class="additional-content__item-icon-container">
-            //                 <svg class="wk-icon wk-icon--reload" title="Re-roll Font" viewBox="0 0 512 512" aria-hidden="true">
-            //                     <use href="#wk-icon__reload"></use>
-            //                 </svg>
-            //             </div>
-            //         </a>
-            //     </li>`
-            // );
             document.querySelector('#additional-content ul').insertAdjacentHTML('beforeend',
                 `<li id="option-reroll-font" class="additional-content__menu-item additional-content__menu-item--5">
                     <a title="Re-roll Font" class="additional-content__item">
